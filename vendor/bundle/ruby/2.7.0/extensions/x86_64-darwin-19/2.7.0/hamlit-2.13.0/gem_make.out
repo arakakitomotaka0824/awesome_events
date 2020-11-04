@@ -1,0 +1,20 @@
+current directory: /Users/arakakitomotaka/Desktop/rails/perfect-rails/awesome_events/vendor/bundle/ruby/2.7.0/gems/hamlit-2.13.0/ext/hamlit
+/Users/arakakitomotaka/.rbenv/versions/2.7.1/bin/ruby -I /Users/arakakitomotaka/.rbenv/versions/2.7.1/lib/ruby/2.7.0 -r ./siteconf20201103-71683-ue1739.rb extconf.rb
+creating Makefile
+
+current directory: /Users/arakakitomotaka/Desktop/rails/perfect-rails/awesome_events/vendor/bundle/ruby/2.7.0/gems/hamlit-2.13.0/ext/hamlit
+make "DESTDIR=" clean
+
+current directory: /Users/arakakitomotaka/Desktop/rails/perfect-rails/awesome_events/vendor/bundle/ruby/2.7.0/gems/hamlit-2.13.0/ext/hamlit
+make "DESTDIR="
+compiling hamlit.c
+hamlit.c:67:10: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'unsigned int' [-Wshorten-64-to-32]
+  size = hesc_escape_html(&buf, RSTRING_PTR(str), RSTRING_LEN(str));
+       ~ ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1 warning generated.
+compiling hescape.c
+linking shared-object hamlit/hamlit.bundle
+
+current directory: /Users/arakakitomotaka/Desktop/rails/perfect-rails/awesome_events/vendor/bundle/ruby/2.7.0/gems/hamlit-2.13.0/ext/hamlit
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 hamlit.bundle ./.gem.20201103-71683-1amb75t/hamlit
